@@ -1,0 +1,21 @@
+.user-container {
+  top: 50px;
+  left: 0px;
+}
+.mat {
+  position: fixed;
+  top: 60px;
+  left: 1100px;
+}
+.utility {
+  position: fixed;
+  top: 60px;
+  left: 500px;
+}
+
+.pay {
+  position: fixed;
+  top: 150px;
+  left: 850px;
+}
+

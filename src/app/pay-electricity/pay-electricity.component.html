@@ -1,0 +1,28 @@
+<div class="col-md-2 customer-container">
+    <h2 class="center">Pay electricity</h2>
+    <form [formGroup]="electricityForm" (ngSubmit)="onSubmit()">
+      <div class="form-group">
+        <input  formControlName="debt"  class="form-control" readonly = "true">
+      </div>
+  
+      <button class="btn btn-success">Pay</button>
+    </form>
+  </div>
+  
+  <div>
+    <div class="col-md-2 user-container">
+      <table class="table table-striped">
+        <thead>
+          <tr>
+        <th>Card Balance</th>
+          </tr>
+        </thead>
+        <tbody>
+          
+            <td>{{ balance }}</td>
+        </tbody>
+      </table>
+    </div>
+        </div>
+  
+  

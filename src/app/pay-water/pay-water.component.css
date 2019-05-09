@@ -1,0 +1,10 @@
+.customer-container {
+  position: fixed;
+  top: 100px;
+  left: 550px;
+  }
+  .user-container {
+    position: fixed;
+    top: 50px;
+    left: 0px;
+  }

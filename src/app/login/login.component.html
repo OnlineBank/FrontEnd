@@ -1,0 +1,17 @@
+
+<div class="body"></div>
+		<div class="grad"></div>
+		<div class="header">
+      <div>Online<span>Bank</span></div>
+		</div>
+    <br>
+    <form [formGroup]="loginForm" (ngSubmit)="onSubmit()">
+		<div class="login">
+      <input type="text" class="form-control" formControlName="username" autocomplete="off" placeholder="Username">
+
+			<input type="password" class="form-control" formControlName="password" autocomplete="off"  placeholder="Password">
+        
+        <button  class="btn btn-success" [disabled]="loginForm.invalid">Login</button>
+      
+    </div>
+  </form>

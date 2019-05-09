@@ -1,0 +1,11 @@
+
+<nav class="navbar navbar-dark bg-dark mb-8" *ngIf="isLoggedIn$ | async as isLoggedIn">
+  <div class="navbar-expand mr-auto">
+    <div class="navbar-nav">
+      <a class="nav-item nav-link" (click)="listCustomers()" >User</a>
+      <a class="nav-item nav-link logout" (click)="logout()" *ngIf="isLoggedIn">Logout</a>
+    </div>
+  </div>
+  <div class="navbar-expand ml-auto navbar-nav"></div>
+</nav>
+<router-outlet></router-outlet>
